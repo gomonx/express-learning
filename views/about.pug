@@ -1,0 +1,15 @@
+//- use layout
+extends layout.pug 
+
+//- block content is showing in layout.pug > block content
+block content
+    // about content
+    //- how to use ways valiable
+    h1= message
+    p this is #{message}
+
+    //- loop example
+    ul.list-group
+        each tool in tools 
+            li.list-group-item= tool
+
