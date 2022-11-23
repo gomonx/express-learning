@@ -26,7 +26,7 @@ serve
 nodemon app.js
 ```
 
-### use generator Setup
+### use generator Setup (recommend)
 install [express generator](https://expressjs.com/en/starter/generator.html)
 ```terminal
 npm install -g express-generator 
